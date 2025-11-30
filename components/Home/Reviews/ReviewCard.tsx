@@ -15,10 +15,10 @@ type Props ={
 const ReviewCard = ({review}:Props) => {
     const {image,name,profession,rating,review:clientReview} = review;
   return (
-    <div className='rounded-md overflow-hidden bg-[#140c1c] m-4'>
+    <div className='rounded-md overflow-hidden bg-[#140c1c] m-4 h-full flex flex-col'>
         <div className='p-6'>
             <Image src='/q.png' alt="image" width={50} height={50} />
-            <p className='text-white text-opacity-70'>{clientReview}</p>
+            <p className='text-white text-opacity-70 overflow-hidden text-ellipsis h-[7rem]'>{clientReview}</p>
             <Image src='/q.png' alt="image" width={50} height={50} className='ml-auto' />
         </div>
         <div className='px-6 py-3 mb-3 w-fit mx-auto rounded-full flex items-center space-x-3 bg-indigo-900 text-white font-bold '>

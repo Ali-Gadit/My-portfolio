@@ -14,7 +14,7 @@ const Hero = () => {
   <h1 data-aos="fade-left" className='text-2xl md:text-3xl lg:text-4xl mb-5 text-gray-300 font-semibold' >I am {BaseInfo.name}
   </h1>
   {/* title */}
-  <h1 data-aos="fade-right" data-aos-delay="100" className='bg-gradient-to-r from-[#8750f7] bg-clip-text text-transparent   to-[#ffffff] text-3xl sm:text-4xl md:text-5xl lg:text-6xl xl:text-7xl font-bold md:leading-[3rem] lg:leading-[3.5rem]
+  <h1 data-aos="fade-right" data-aos-delay="100" className='bg-gradient-to-r from-[#8750f7] bg-clip-text text-transparent   to-[#ffffff] text-xl sm:text-2xl md:text-3xl lg:text-4xl xl:text-5xl font-bold md:leading-[3rem] lg:leading-[3.5rem]
   xl:leading-[4rem] text-white'>{BaseInfo.position}
   </h1>
   {/* description */}

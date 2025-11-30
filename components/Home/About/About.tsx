@@ -3,6 +3,7 @@ import SectionHeading from '../Helper/SectionHeading'
 import { aboutInfo } from '@/data/data'
 import { FaCheck } from 'react-icons/fa'
 import Image from 'next/image'
+import Link from 'next/link'
 
 const About = () => {
   return (
@@ -22,6 +23,13 @@ const About = () => {
         <p className='text-sm sm:text-base md:text-lg font-bold text-gray-300'>Frontend Developer</p>
 
     </div>
+    <div className='flex items-center space-x-2 mb-6'>
+        <div className='w-7 h-7 bg-blue-800 rounded-lg flex flex-col items-center justify-center'>
+            <FaCheck className='text-white' />
+        </div>
+        <p className='text-sm sm:text-base md:text-lg font-bold text-gray-300'>Agentic AI Developer</p>
+
+    </div>
 
     </div>        
     </div>
@@ -37,7 +45,6 @@ const About = () => {
             className='mx-auto'
              />
              <p className='mt-3 font-bold text-xl text-white text-center'>{aboutInfo.client}</p>
-             <p className='text-base  sm:text-lg text-gray-400 text-center'>Satisfied Customers</p>
         </div>
         {/* 2nd stat */}
         <div>
@@ -49,7 +56,6 @@ const About = () => {
             className='mx-auto'
              />
              <p className='mt-3 font-bold text-xl text-white text-center'>{aboutInfo.experience}</p>
-             <p className='text-base  sm:text-lg text-gray-400 text-center'>Fresher</p>
         </div>
         {/* 3rd stat */}
         <div>
@@ -61,7 +67,6 @@ const About = () => {
             className='mx-auto'
              />
              <p className='mt-3 font-bold text-xl text-white text-center'>{aboutInfo.projects}</p>
-             <p className='text-base  sm:text-lg text-gray-400 text-center'>Completed Projects</p>
         </div>
         {/* 4th stat */}
         <div>
@@ -72,8 +77,7 @@ const About = () => {
             height={80}
             className='mx-auto'
              />
-             <p className='mt-3 font-bold text-xl text-white text-center'>{aboutInfo.website}</p>
-             <p className='text-base  sm:text-lg text-gray-400 text-center'>Website Launche</p>
+             <Link href={aboutInfo.website} target='_blank' className='mt-3 font-bold text-xl text-[#8750f7] text-center block hover:underline'>CodeVerse Innovations</Link>
         </div>
 
     </div>

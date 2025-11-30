@@ -24,7 +24,7 @@ const responsive = {
 const Slider = () => {
   return <Carousel arrows={true} autoPlay={true} autoPlaySpeed={5000} responsive={responsive} >
     {clientReviews.map((review)=>{
-        return <div key={review.image}>
+        return <div key={review.image} className="h-full">
             <ReviewCard review={review}/>
 
               
