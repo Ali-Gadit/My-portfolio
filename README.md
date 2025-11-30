@@ -57,4 +57,4 @@ Feel free to reach out:
 
 -💼 LinkedIn: https://www.linkedin.com/in/muhammad-ali-gadit-07932b2b9/
 
--🐙 GitHub: https://github.com/Aligadit1
+-🐙 GitHub: https://github.com/Ali-Gadit
