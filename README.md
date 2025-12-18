@@ -2,7 +2,7 @@
 Welcome to my personal developer portfolio! This project is designed and built using Next.js to showcase my skills, projects, and passion for frontend web development. It serves as a digital résumé that highlights my journey as a developer.
 
 ## 🌐 Live Demo
-👉 https://my-portfolio-two-nu-51.vercel.app/
+👉 https://muhammadaligadit.vercel.app/
 
 ## 📌 Features
 -⚡ Built with Next.js 14 for performance and scalability
