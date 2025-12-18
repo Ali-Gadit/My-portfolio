@@ -58,7 +58,7 @@ const Navbar=({openNav}:Props)=>{
           </div>
           {/* button */}
           <div className="flex items-center space-x-4 ">
-            <button className="md:px-10 md:py-3 px-8 max-[381px]:px-1 max-[381px]:py-1 max-[325px]:px-0 and py-3 text-blue-800 font-semibold sm:text-base bg-white hover:bg-gray-200 transition-all duration-200 rounded-lg max-[325px]:text-[12px] ">
+            <button className="px-4 py-2 sm:px-6 sm:py-3 md:px-10 md:py-3 text-blue-800 font-semibold sm:text-base bg-white hover:bg-gray-200 transition-all duration-200 rounded-lg">
               Hire Me
             </button>
             {/* burger */}

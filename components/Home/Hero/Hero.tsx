@@ -28,11 +28,11 @@ transition-all duration-200 rounded-lg mt-8 bg-blue-700 hover:bg-blue-900 flex i
 </button>
 </div >
 {/* Image content */}
-<div data-aos="zoom-in" data-aos-delay="400" className='mx-auto hidden lg:block rounded-[3rem] border-[3.5px] border-blue-950 overflow-x-hidden'>
+<div data-aos="zoom-in" data-aos-delay="400" className='mx-auto hidden lg:block rounded-[3rem] border-[3.5px] border-blue-950 h-[550px] overflow-hidden'>
   <Image
   src={BaseInfo.profilePic}
   alt={BaseInfo.name}
-  height={500}
+  height={470}
   width={350}
   />
 </div>
