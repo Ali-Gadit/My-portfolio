@@ -4,6 +4,7 @@ export const BaseInfo = {
   description:
     "I am an AI-Native Developer specializing in modern web development and agentic AI systems. I work with Next.js, TypeScript, TailwindCSS, Python, and the OpenAI Agents SDK to build intelligent digital solutions, automations, and AI-driven products.",
   profilePic: "/hero.png",
+  cvPath: "/Muhammad Ali Gadit CV.pdf",
 };
 
 export const aboutInfo = {
@@ -203,3 +204,41 @@ export const contactData = {
   email: "muhammadaligadit@gmail.com",
   address: "Karachi, Pakistan",
 };
+
+export const navLinks = [
+  {
+    id: 1,
+    url: "#",
+    label: "Home",
+  },
+  {
+    id: 2,
+    url: "#about",
+    label: "About",
+  },
+  {
+    id: 3,
+    url: "#services",
+    label: "Services",
+  },
+  {
+    id: 4,
+    url: "#projects",
+    label: "Projects",
+  },
+  {
+    id: 5,
+    url: "#skills",
+    label: "Skills",
+  },
+  {
+    id: 6,
+    url: "#reviews",
+    label: "Reviews",
+  },
+  {
+    id: 7,
+    url: "#contact",
+    label: "Contact",
+  },
+];

@@ -2,7 +2,7 @@
 import React, { useEffect, useState } from "react";
 import Image from "next/image";
 import Link from "next/link";
-import { navLinks } from "@/constants/constants";
+import { navLinks } from '@/data/data';
 import { HiBars3BottomRight } from "react-icons/hi2";
 // define props type
 type Props ={
@@ -58,12 +58,13 @@ const Navbar=({openNav}:Props)=>{
           </div>
           {/* button */}
           <div className="flex items-center space-x-4 ">
-            <button className="px-4 py-2 sm:px-6 sm:py-3 md:px-10 md:py-3 text-blue-800 font-semibold sm:text-base bg-white hover:bg-gray-200 transition-all duration-200 rounded-lg">
-              Hire Me
-            </button>
+            <Link href="#contact">
+              <button className="px-4 py-2 sm:px-6 sm:py-3 md:px-10 md:py-3 text-blue-800 font-semibold sm:text-base bg-white hover:bg-gray-200 transition-all duration-200 rounded-lg">
+                Hire Me
+              </button>
+            </Link>
             {/* burger */}
             <HiBars3BottomRight onClick={openNav} className="w-8 h-8 cursor-pointer text-white lg:hidden" />
-
           </div>
         </div>
       </div>

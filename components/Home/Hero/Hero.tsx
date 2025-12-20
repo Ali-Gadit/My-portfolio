@@ -21,11 +21,16 @@ const Hero = () => {
   <p data-aos="fade-left" data-aos-delay="200" className='mt-6 text-sm md:text-base text-white text-opacity-60'>{BaseInfo.description}</p>
 
 {/* button */}
-<button data-aos="zoom-in" data-aos-delay="300" className='md:px-8 md:py-2.5 px-6 py-1.5 text-white font-semibold text-sm md:text-lg
-transition-all duration-200 rounded-lg mt-8 bg-blue-700 hover:bg-blue-900 flex items-center space-x-2'>
+<a 
+  href={BaseInfo.cvPath} 
+  download="Muhammad_Ali_Gadit_CV.pdf"
+  data-aos="zoom-in" 
+  data-aos-delay="300" 
+  className='md:px-8 md:py-2.5 px-6 py-1.5 text-white font-semibold text-sm md:text-lg
+transition-all duration-200 rounded-lg mt-8 bg-blue-700 hover:bg-blue-900 flex items-center space-x-2 w-max'>
   <span>Download CV</span>
   <FaDownload />
-</button>
+</a>
 </div >
 {/* Image content */}
 <div data-aos="zoom-in" data-aos-delay="400" className='mx-auto hidden lg:block rounded-[3rem] border-[3.5px] border-blue-950 h-[550px] overflow-hidden'>

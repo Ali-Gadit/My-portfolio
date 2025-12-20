@@ -1,4 +1,4 @@
-import { navLinks } from '@/constants/constants'
+import { navLinks } from '@/data/data'
 import Link from 'next/link'
 import React from 'react'
 import { CgClose } from 'react-icons/cg';
