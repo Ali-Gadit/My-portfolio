@@ -12,7 +12,7 @@ export default function Project() {
       image: "/food.png",
       description:
         "A modern and elegant restaurant website showcasing delicious cuisines, online reservations, and an engaging user interface for food lovers.",
-      link: "https://bari-food.vercel.app/",
+      link: "https://foodie-frenzy-frontend.vercel.app/",
       color: "from-orange-500 to-red-500",
     },
     {
