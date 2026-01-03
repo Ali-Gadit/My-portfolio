@@ -23,7 +23,7 @@ const Hero = () => {
 {/* button */}
 <a 
   href={BaseInfo.cvPath} 
-  download="Muhammad_Ali_Gadit_CV.pdf"
+  download="Muhammad_Ali_Gadit_CV.docx"
   data-aos="zoom-in" 
   data-aos-delay="300" 
   className='md:px-8 md:py-2.5 px-6 py-1.5 text-white font-semibold text-sm md:text-lg

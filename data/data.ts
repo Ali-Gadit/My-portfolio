@@ -4,7 +4,7 @@ export const BaseInfo = {
   description:
     "I am an AI-Native Developer specializing in modern web development and agentic AI systems. I work with Next.js, TypeScript, TailwindCSS, Python, and the OpenAI Agents SDK to build intelligent digital solutions, automations, and AI-driven products.",
   profilePic: "/hero.png",
-  cvPath: "/Muhammad Ali Gadit CV.pdf",
+  cvPath: "/Muhammad Ali Gadit CV.docx",
 };
 
 export const aboutInfo = {
